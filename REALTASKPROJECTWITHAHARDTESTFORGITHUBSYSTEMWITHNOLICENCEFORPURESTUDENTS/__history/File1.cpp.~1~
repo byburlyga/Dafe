@@ -2,11 +2,12 @@
 #pragma argsused
 
 #include <tchar.h>
+#include <stdio.h>
 #include <iostream>
+using namespace std;
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	std::cout << "GitHub horosho, no SourceTree luchshe!\n";
-	system("pause");
-	return 0;
+	cout << "Hello, world!" << endl;
+    	return 0; 
 }
